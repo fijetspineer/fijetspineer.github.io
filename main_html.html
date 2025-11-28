@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main_css.css">
+    <script src="main_js.js" defer></script>
+    <title>Internet Security Rules</title>
+</head>
+<body>
+    <div class="container">
+        <header class="navigation">
+            <div class="menu-toggle" id="menuToggle">
+                <img src="nicht aktiv.svg" alt="Menu" class="menu-icon" id="menuIcon">
+            </div>
+            <div class="logo">
+                <img src="logo.svg" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#password">Password Security</a></li>
+                    <li><a href="#phishing">Phishing Detection</a></li>
+                    <li><a href="#data">Data Protection</a></li>
+                    <li><a href="#social">Social Media</a></li>
+                    <li><a href="#quiz">Test Your Knowledge</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h1>Internet Security Best Practices</h1>
+                <p>Learn essential rules to protect yourself online and stay safe in the digital world</p>
+            </section>
+
+            <section id="password" class="content-section">
+                <h2>Password Security</h2>
+                <p>Strong passwords are your first line of defense against cyber threats. A secure password should be unique, complex, and difficult to guess.</p>
+                <ul>
+                    <li>Use at least 12 characters combining uppercase, lowercase, numbers, and symbols</li>
+                    <li>Never reuse passwords across different accounts</li>
+                    <li>Enable two-factor authentication whenever possible</li>
+                    <li>Use a password manager to store credentials securely</li>
+                    <li>Change passwords immediately if you suspect a breach</li>
+                    <li>Avoid using personal information like birthdays or names</li>
+                </ul>
+            </section>
+
+            <section id="phishing" class="content-section">
+                <h2>Recognizing Phishing Attempts</h2>
+                <p>Phishing is a fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity. Stay vigilant and recognize the warning signs.</p>
+                <ul>
+                    <li>Check sender email addresses carefully for subtle misspellings</li>
+                    <li>Hover over links before clicking to verify the actual destination</li>
+                    <li>Be suspicious of urgent requests for personal information</li>
+                    <li>Look for grammar and spelling errors in official-looking emails</li>
+                    <li>Verify requests through official channels before responding</li>
+                    <li>Never provide sensitive data via email or unsecured websites</li>
+                </ul>
+            </section>
+
+            <section id="data" class="content-section">
+                <h2>Safe Handling of Company Data</h2>
+                <p>Protecting corporate information is crucial for business security and compliance. Follow these guidelines to handle sensitive data responsibly.</p>
+                <ul>
+                    <li>Only access company data on authorized and secured devices</li>
+                    <li>Use encrypted connections when accessing data remotely</li>
+                    <li>Never share confidential information via unsecured channels</li>
+                    <li>Lock your computer when leaving your workstation</li>
+                    <li>Report any suspected data breaches immediately</li>
+                    <li>Follow your organization's data classification policies</li>
+                </ul>
+            </section>
+
+            <section id="social" class="content-section">
+                <h2>Social Media Behavior Guidelines</h2>
+                <p>Social networks can expose personal and professional information. Practice smart social media habits to protect your privacy and reputation.</p>
+                <ul>
+                    <li>Review and adjust privacy settings on all social media accounts</li>
+                    <li>Think before posting - consider how information could be misused</li>
+                    <li>Avoid sharing detailed location information in real-time</li>
+                    <li>Be cautious about accepting friend requests from unknown people</li>
+                    <li>Don't share sensitive company information on personal accounts</li>
+                    <li>Use strong, unique passwords for each social media platform</li>
+                </ul>
+            </section>
+
+            <section id="quiz" class="content-section quiz-section">
+                <h2>Test Your Knowledge</h2>
+                <p>Challenge yourself with these questions to ensure you understand internet security best practices.</p>
+                <div id="quizContainer" class="quiz-container">
+                    <div class="quiz-progress">
+                        <span id="currentQuestion">1</span> / <span id="totalQuestions">10</span>
+                    </div>
+                    <div id="questionCard" class="question-card">
+                        <h3 id="questionText"></h3>
+                        <div id="answerOptions" class="answer-options"></div>
+                    </div>
+                    <div id="feedback" class="feedback"></div>
+                    <button id="nextBtn" class="next-btn">Next Question</button>
+                    <div id="results" class="results"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Internet Security Guidelines. Stay safe online.</p>
+        </footer>
+
+        <button id="scrollTopBtn" class="scroll-top-btn">↑</button>
+    </div>
+</body>
+</html>
